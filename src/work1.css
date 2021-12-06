@@ -1,0 +1,25 @@
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .card-img-top {
+    width:400px;
+    height:300px;
+
+  }
+  
+  p {
+    font-size: 17px;
+    font-family: 'Prompt', sans-serif;
+  }
+  
+  h3{
+    font-family: 'Prompt', sans-serif;
+  }
+  h5{
+    font-family: 'Prompt', sans-serif;
+  }
+ a{
+    font-family: 'Prompt', sans-serif;
+ }
