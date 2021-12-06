@@ -3,37 +3,28 @@ import React from 'react'
 function Haeder() {
     return (
         <div>
-         <section class="navbar navbar-dark bg-dark fixed-top navbar-expand-lg">
-       <div class="container-fluid">
-          <div class="row">
-           <div class="col-sm-12"> 
-            <nav class="navbar navbar-expand-lg ">
-              <a class="navbar-brand text-white" href="#">Thanaphat Pinthong</a>
-              
-              <div class="container">
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                  <li class="nav-item ">
-                    <a class="nav-link " href="#Profile">ประวัติส่วนตัว</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#Skill">ทักษะ</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                  <a class="nav-link" href="#Reason">เหตุผลที่ต้องการฝึกงานในหน่วยงานนี้</a>
-                  </li>
-                  
-                </ul>
-                 
-              </div>
-             
-              </div>
-
-             </nav>
-            </div>
-          </div>
-        </div>
-    </section> 
+         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Thanaphat Pinthong</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page"  href="#Profile">ประวัติส่วนตัว</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Skill">ทักษะ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Reason">เหตุผลที่ต้องการฝึกงานในหน่วยงานนี้</a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
         </div>
     )
 }
