@@ -60,7 +60,7 @@ function Profile() {
                     <div class="card mt-4">
                     <div class="testimonial mb-5">
            <div class="avatar mx-auto">
-               <img class="card-img-top" src="5.jpg" alt="" />
+               <img class="card-img-top" src="5.JPG" alt="" />
                </div>
                        </div>
                        <div class="card-body">
