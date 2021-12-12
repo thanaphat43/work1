@@ -14,7 +14,7 @@ function Reason() {
                     <div class="col-sm-4 mb-5">
                         <div class="card mt-4">
                             <div class="card-body">
-                                <h5>1.ต้องการเก็บเกี่ยวประสบการณ์ความรู้ทางด้านฮาร์ดแวร์และซอฟต์ให้มากที่สุด</h5>
+                                <h5>1.ต้องการเก็บเกี่ยวความรู้ทางด้านฮาร์ดแวร์และซอฟต์แวร์ให้มากที่สุด</h5>
                             </div>
                             <img class="card-img-top" src="hardware.png" alt=""  />
                         </div>
@@ -22,7 +22,7 @@ function Reason() {
                     <div class="col-sm-4 mb-5">
                         <div class="card mt-4">
                             <div class="card-body">
-                                <h5>2.เพื่อจะได้มีประสบการณ์ในการทำงาน</h5>
+                                <h5>2.เพื่อจะได้มีประการณ์ในการทำงาน</h5>
                                 <br/>
                             </div>
                             <img class="card-img-top" src="work.jpg" alt=""  />
@@ -47,4 +47,4 @@ function Reason() {
     )
 }
 
-export default Reason
+export default Reason;
