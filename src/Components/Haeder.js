@@ -1,31 +1,54 @@
-import React from 'react'
+import React from 'react';
+import {
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  NavbarBrand,
+  Nav,
+  NavItem,
+  NavLink,
+  UncontrolledDropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem } from 'reactstrap';
 
-function Haeder() {
+export default class Example extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.toggle = this.toggle.bind(this);
+    this.state = {
+      isOpen: false
+    };
+  }
+  toggle() {
+    this.setState({
+      isOpen: !this.state.isOpen
+    });
+  }
+  render() {
     return (
-        <div>
-         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Thanaphat Pinthong</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page"  href="#Profile">ประวัติส่วนตัว</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#Skill">ทักษะ</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#Reason">เหตุผลที่ต้องการฝึกงานในหน่วยงานนี้</a>
-        </li>
-        
-      </ul>
-    </div>
-  </div>
-</nav>
-        </div>
-    )
+      <div>
+           <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <Navbar color="dark" light expand="md">
+          <NavbarBrand href="/"><a>Thanaphat Pinthong</a></NavbarBrand>
+          <NavbarToggler onClick={this.toggle} />
+          <Collapse isOpen={this.state.isOpen} navbar>
+            <Nav className="ml-auto" navbar>
+              <NavItem>
+                <NavLink href="#Profile"><a>ประวัติส่วนตัว</a></NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="#Skill"><a>ทักษะ</a></NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="#Reason"><a>เหตุผลที่ต้องการฝึกงานในหน่วยงานนี้</a></NavLink>
+              </NavItem>
+            </Nav>
+          </Collapse>
+        </Navbar>
+        </nav>
+      </div>
+    );
+  }
 }
-export default Haeder;
