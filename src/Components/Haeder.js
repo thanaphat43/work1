@@ -7,10 +7,7 @@ import {
   Nav,
   NavItem,
   NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem } from 'reactstrap';
+ } from 'reactstrap';
 
 export default class Example extends React.Component {
   constructor(props) {
@@ -29,8 +26,9 @@ export default class Example extends React.Component {
   render() {
     return (
       <div>
+           
            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <Navbar color="dark" light expand="md">
+        <Navbar color="dark" light expand="md" fixed="top">
           <NavbarBrand href="/"><a>Thanaphat Pinthong</a></NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
@@ -48,6 +46,7 @@ export default class Example extends React.Component {
           </Collapse>
         </Navbar>
         </nav>
+        
       </div>
     );
   }
