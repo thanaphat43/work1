@@ -6,7 +6,7 @@ function Profile() {
                 <div class="container">
              <div class="row">
               <div class="col-sm-12 col-md-12">
-                 <h3 class="text-center mt-4 ">ประวัติส่วนตัว</h3>
+                 <h3 class="text-center mt-4 ">My Profile</h3>
                </div>
               </div>
               <center>
@@ -32,9 +32,9 @@ function Profile() {
                        </div>
                        <div class="card-body">
                          
-                          <p>นาย ธนภัทร์   ปิ่นทอง</p>
-                          <p>ชื่อเล่น คิว</p>
-                          <p>เกิดวันที่ 9 กุมภาพันธ์ พ.ศ 2543</p>
+                          <p>Mr. Thanaphat pinthong</p>
+                          <p>Khiw</p>
+                          <p></p>
                        </div>
                       
                     </div>
@@ -49,8 +49,8 @@ function Profile() {
                        </div>
                        <div class="card-body">
                          
-                          <p>ศึกษาที่ มหาวิทยาลัยราชภัฎนครปฐม</p>
-                          <p>สาขา วิศกรรมซอฟต์แวร์และเทคโนโลยี</p>
+                          <p>Nakhon Pathom Rajabhat University</p>
+                          <p>B.Sc (Software Engineering ) GPA 3.27</p>
                           <br/>
                        </div>
                        
