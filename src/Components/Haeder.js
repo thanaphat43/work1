@@ -34,14 +34,14 @@ export default class Example extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="#Profile"><a>ประวัติส่วนตัว</a></NavLink>
+                <NavLink href="#Profile"><a>MyProfile</a></NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#Skill"><a>ทักษะ</a></NavLink>
+                <NavLink href="#Skill"><a>Expertisement</a></NavLink>
               </NavItem>
-              <NavItem>
-                <NavLink href="#Reason"><a>เหตุผลที่ต้องการฝึกงานในหน่วยงานนี้</a></NavLink>
-              </NavItem>
+//               <NavItem>
+//                 <NavLink href="#Reason"><a>เหตุผลที่ต้องการฝึกงานในหน่วยงานนี้</a></NavLink>
+//               </NavItem>
             </Nav>
           </Collapse>
         </Navbar>
