@@ -40,7 +40,7 @@ export default class Example extends React.Component {
                 <NavLink href="#Skill"><a><h5>ทักษะ</h5></a></NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#Work"><a><h5>ผลงาน</h5></a></NavLink>
+                <NavLink href="#Reason"><a><h5>ผลงาน</h5></a></NavLink>
               </NavItem>
             </Nav>
           </Collapse>
