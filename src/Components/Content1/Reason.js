@@ -3,44 +3,49 @@ import React from 'react'
 function Reason() {
     return (
         <div>
-
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 col-md-12">
-                        <h3 class="text-center mt-4 ">เหตุผลที่ต้องการฝึกงานในหน่วยงานนี้</h3>
+            <center>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-12">
+                            <h2 class="text-center mt-4 ">ผลงาน</h2>
+                        </div>
                     </div>
+                    <div class="row">
+                        <div class="col-sm-6 mb-6">
+                            <div class="card mt-6">
+                                <div class="card-body">
+                                    <a href="/jod_1"> <h5>ระบบการให้บริการสนเทศ</h5></a> 
+                    
+                                </div>
+                                <center>
+                                <a href="/jod_1">
+                                    <img class="card-img-top" src="/Project1/Capture.PNG" alt="" />
+                                    </a>
+                             
+                                </center>
+                                <br />
+                            </div>
+                        </div>
+                        <div class="col-sm-6 mb-6" >
+                            <div class="card mt-6">
+                                <div class="card-body">
+                                <a href="/jod_2">
+                                    <h5>ระบบตรวจอุณหภูมิห้อง</h5>
+                                    </a>
+                                </div>
+                                <center>
+                                <a href="/jod_2">
+                                    <img class="card-img-top" src="/Project2/F_0.jpg" alt="" />
+                                   </a>
+                                </center>
+                                <br />
+                            </div>
+                        </div>
+
+                    </div>
+
                 </div>
-                <div class="row">
-                    <div class="col-sm-4 mb-5">
-                        <div class="card mt-4">
-                            <div class="card-body">
-                                <h5>1.ต้องการเก็บเกี่ยวความรู้ทางด้านฮาร์ดแวร์และซอฟต์แวร์ให้มากที่สุด</h5>
-                            </div>
-                            <img class="card-img-top" src="hardware.png" alt=""  />
-                        </div>
-                    </div>
-                    <div class="col-sm-4 mb-5">
-                        <div class="card mt-4">
-                            <div class="card-body">
-                                <h5>2.เพื่อจะได้มีประสบการณ์ในการทำงาน</h5>
-                                <br/>
-                            </div>
-                            <img class="card-img-top" src="work.jpg" alt=""  />
-
-                        </div>
-                    </div>
-                    <div class="col-sm-4 mb-5">
-                        <div class="card mt-4">
-                            <div class="card-body">
-                                <h5>3.เพื่อเพิ่มทักษะและเรียนรู้เกี่ยวกับงานต่างๆในหน่วยงาน</h5>
-                            </div>
-                            <img class="card-img-top" src="skill.jpg" alt=""  />
-
-
-                        </div>
-                    </div>
-                </div>
-            </div>
+            </center>
         </div>
 
 
